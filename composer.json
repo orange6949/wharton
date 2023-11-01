@@ -7,18 +7,26 @@
     "require": {
         "php": "^7.3|^8.0",
         "doctrine/dbal": "^2.12",
+        "doctrine/instantiator": "^1.0",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.5.5",
         "laravel/framework": "^8.40",
         "laravel/sanctum": "^2.6",
         "laravel/tinker": "^2.5",
         "league/flysystem-aws-s3-v3": "^1.0",
+        "ramsey/collection": "^1.0",
         "shinhyungjune/social-login": "^1.0",
-        "spatie/laravel-medialibrary": "^8.7"
+        "spatie/laravel-medialibrary": "^8.7",
+        "symfony/css-selector": "^5.0",
+        "symfony/deprecation-contracts": "^2.0",
+        "symfony/event-dispatcher": "^5.0",
+        "symfony/event-dispatcher-contracts": "^2.0",
+        "symfony/string": "^5.0",
+        "symfony/translation-contracts": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.3",
-        "fakerphp/faker": "^1.9.1",
+        "fakerphp/faker": "^1.22",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
