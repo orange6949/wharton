@@ -22,7 +22,7 @@
         "symfony/event-dispatcher": "^5.0",
         "symfony/event-dispatcher-contracts": "^2.0",
         "symfony/string": "^5.0",
-        "symfony/translation-contracts": "^2.0"
+        "symfony/translation-contracts": "^2.0",
         "symfony/translation": "^5.4",
         "symfony/yaml": "^5.4",
     },
