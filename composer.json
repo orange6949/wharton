@@ -23,6 +23,8 @@
         "symfony/event-dispatcher-contracts": "^2.0",
         "symfony/string": "^5.0",
         "symfony/translation-contracts": "^2.0"
+        "symfony/translation": "^5.4",
+        "symfony/yaml": "^5.4",
     },
     "require-dev": {
         "facade/ignition": "^2.3",
@@ -64,14 +66,14 @@
             "dont-discover": []
         }
     },
-     "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true,
-        "platform": {
-            "php": "8.1"
-        }
-    },
+    "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "platform": {
+        "php": "8.0.30"
+    }
+},
     "minimum-stability": "dev",
     "prefer-stable": true
 }
